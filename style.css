@@ -1,0 +1,37 @@
+body {
+    background: #f5f5f5;
+}
+
+canvas {
+    margin: 60px;
+}
+
+.tab {
+    overflow: hidden;
+    float: center;
+}
+.tab button {
+    float: center;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    color: #fff;
+    background-color: #000;
+}
+.tab button:hover {
+    background-color: #06d6a0;
+    color: #fff;
+}
+
+.tab button.active {
+    color: #fff;
+}
+
+.tabcontent {
+    display: none;
+    padding: 3px 6px;
+    border-top: none;
+}
+  
